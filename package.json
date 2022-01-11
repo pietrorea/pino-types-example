@@ -1,0 +1,24 @@
+{
+  "name": "pino-types-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rm -rf out-tsc && tsc",
+    "dev": "./node_modules/.bin/ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pietrorea/pino-types-example.git"
+  },
+  "dependencies": {
+    "pino": "^6.11.3"
+  },
+  "devDependencies": {
+    "@types/pino": "^6.3.8",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.5.4"
+  },
+  "author": "Pietro Rea",
+  "license": "ISC"
+}
